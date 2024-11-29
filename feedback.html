@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+    <script defer src="feedback.js"></script>
+</head>
+<body>
+    <div class="feedback-container">
+        <header>
+            <h1>Good Job!</h1>
+            <p>How was your session?</p>
+        </header>
+
+        <!-- Feedback Form -->
+        <div class="feedback-form">
+            <h2>Your Experience</h2>
+            <form id="feedback-form">
+                <label for="rating">Rate your session:</label>
+                <select id="rating" name="rating">
+                    <option value="1">1 - Needs Improvement</option>
+                    <option value="2">2 - Could be better</option>
+                    <option value="3">3 - Good</option>
+                    <option value="4">4 - Very Good</option>
+                    <option value="5">5 - Excellent</option>
+                </select>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="What did you like or dislike?"></textarea>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+
+        <!-- Start New Session -->
+        <div class="new-session">
+            <button id="new-session-button">Start New Session</button>
+        </div>
+    </div>
+</body>
+</html>

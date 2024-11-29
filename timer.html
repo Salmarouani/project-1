@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="timer.css">
+    <script defer src="timer.js"></script>
+</head>
+<body>
+    <div class="timer-container">
+        <header>
+            <h1>Pomodoro Timer</h1>
+            <p>Stay productive and take breaks effectively!</p>
+        </header>
+
+        <!-- Timer Display -->
+        <div id="timer-display">
+            <div class="time">
+                <div class="digit">
+                    <span id="minutes-tens">2</span>
+                    <span id="minutes-units">5</span>
+                </div>
+                <span class="colon">:</span>
+                <div class="digit">
+                    <span id="seconds-tens">0</span>
+                    <span id="seconds-units">0</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Timer Controls -->
+        <div class="controls">
+            <button id="start-button">Start</button>
+            <button id="pause-button">Pause</button>
+            <button id="reset-button">Reset</button>
+        </div>
+
+        <!-- Customization -->
+        <div class="customization">
+            <h2>Customize Timer</h2>
+            <label for="work-duration">Work Duration (minutes):</label>
+            <input type="number" id="work-duration" value="25" min="1" max="60">
+            <label for="break-duration">Break Duration (minutes):</label>
+            <input type="number" id="break-duration" value="5" min="1" max="30">
+        </div>
+
+        <!-- Break Suggestions -->
+        <div id="break-suggestions" class="hidden">
+            <h3>Break Suggestions</h3>
+            <ul id="suggestion-list">
+                <!-- Suggestions will populate here -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
