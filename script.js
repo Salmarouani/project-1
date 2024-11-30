@@ -1,15 +1,18 @@
-// script.js
-
-// Toggle Hamburger Menu
+// Hamburger Menu Toggle
 const hamburgerMenu = document.getElementById('hamburger-menu');
 const navMenu = document.getElementById('nav-menu');
 
+// Add click event listener for the hamburger menu
 hamburgerMenu.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
+    // Toggle the class 'show' to make the menu visible
+    navMenu.classList.toggle('show');
 });
 
-// Redirect to Form Page on Button Click
-const startButton = document.getElementById('start-button');
-startButton.addEventListener('click', () => {
-    window.location.href = 'form.html';
+// Close the menu when any link is clicked
+const navLinks = document.querySelectorAll('.nav-menu a');
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        // Remove 'show' class to hide the menu after a link is clicked
+        navMenu.classList.remove('show');
+    });
 });

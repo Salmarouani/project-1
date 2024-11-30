@@ -20,3 +20,17 @@ form.addEventListener('submit', (event) => {
         window.location.href = 'to-do.html';
     }
 });
+const userForm = document.getElementById('user-form');
+
+userForm.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent form submission
+  const username = document.getElementById('username').value.trim();
+
+  if (username) {
+    // Save username to localStorage
+    localStorage.setItem('userName', username);
+
+    // Redirect to tasks page
+    window.location.href = 'tasks.html';
+  }
+});

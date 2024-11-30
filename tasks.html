@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChronoDoro - To-Do List</title>
-    <link rel="stylesheet" href="to-do.css">
+    <link rel="stylesheet" href="tasks.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <div class="logo">
+            <img src="icons/pomodoro.png" alt="ChronoDoro Logo">
+            <h3>ChronoDoro</h3>
+        </div>
+    </header>
     <section id="tasks-page">
         <div class="container">
             <h1>Welcome, <span id="user-name"></span>!</h1>
@@ -31,8 +38,6 @@
             <button id="start-session" class="button" disabled>Start Study Session</button>
         </div>
     </section>
-
-    <!-- Link to JavaScript file -->
     <script src="tasks.js"></script>
 </body>
 </html>

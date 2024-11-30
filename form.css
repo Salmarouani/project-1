@@ -1,0 +1,93 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FFFEF5; /* Brightest color */
+  color: #000000;
+  line-height: 1.6;
+}
+
+/* Header (Logo or Title) */
+h1 {
+  font-family: 'Cherry Bomb One', cursive;
+  font-size: 2.5rem;
+  color: #E22027;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2, p {
+  font-size: 1.2rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Page Container */
+#form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #75BA58, #FFFEF5); /* Bright gradient */
+  padding: 20px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Form Input and Button Styling */
+#user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #E22027;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #75BA58;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #75BA58;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #E22027;
+}
+
+/* Icon styling (customize later) */
+input[type="text"]::placeholder {
+  color: #888;
+}
+.user{
+  width: 75px;
+}

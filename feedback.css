@@ -1,6 +1,7 @@
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fafafa;
+    background-color: #f4f4f9; /* Light background */
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,8 +10,9 @@ body {
     height: 100vh;
 }
 
+/* Feedback Container */
 .feedback-container {
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 30px;
@@ -19,9 +21,10 @@ body {
     max-width: 500px;
 }
 
+/* Header Styles */
 header h1 {
     font-size: 2rem;
-    color: #28a745;
+    color:  #75BA58; /* Teal */
     margin-bottom: 10px;
 }
 
@@ -31,6 +34,7 @@ header p {
     margin-bottom: 20px;
 }
 
+/* Feedback Form */
 .feedback-form {
     margin-bottom: 30px;
 }
@@ -54,11 +58,12 @@ header p {
     margin-bottom: 15px;
     font-size: 1.2rem;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #ddd;
 }
 
+/* Submit Button */
 .feedback-form button {
-    background: #28a745;
+    background:  #75BA58; /* Teal */
     color: white;
     border: none;
     padding: 12px 20px;
@@ -69,15 +74,16 @@ header p {
 }
 
 .feedback-form button:hover {
-    background: #218838;
+    background: #E22027; /* Darker teal */
 }
 
+/* New Session Button */
 .new-session {
     margin-top: 20px;
 }
 
 .new-session button {
-    background: #007bff;
+    background: #E22027; /* Soft orange */
     color: white;
     border: none;
     padding: 12px 25px;
@@ -88,5 +94,5 @@ header p {
 }
 
 .new-session button:hover {
-    background: #0056b3;
+    background: #75BA58; /* Darker orange */
 }
