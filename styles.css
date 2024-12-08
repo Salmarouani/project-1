@@ -277,3 +277,15 @@ section .image img {
   color: #E22027;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .img1{
+    display: none;
+   
+  }
+  .img2{
+    display: none;
+  }
+  .paragraph-1{
+    display: none;
+  }
+}
