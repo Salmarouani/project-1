@@ -217,6 +217,7 @@ section .image img {
 #contact-us blockquote {
   font-style: italic;
   color: #75BA58;
+  font-weight: bold;
 }
 
 .social-icons img {
