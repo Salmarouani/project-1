@@ -65,10 +65,9 @@ h1, h2, h3 {
   margin: 10px 0;
 }
 
-.nav-menu ul li a {
-  text-decoration: none;
-  color: #E22027;
-  font-weight: bold;
+
+.home_icon,.how-it-works_icon,.about-us_icon,.contact-us_icon{
+  width: 25px;
 }
 
 /* Hero Section */

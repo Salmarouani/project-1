@@ -15,5 +15,5 @@ document.getElementById('feedback-form').addEventListener('submit', function(eve
 
 // Redirect to the landing page to start a new session
 document.getElementById('new-session-button').addEventListener('click', function() {
-    window.location.href = 'landing-page.html'; // Redirect to the landing page or wherever you want
+    window.location.href = 'tasks.html'; // Redirect to the landing page or wherever you want
 });
