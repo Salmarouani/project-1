@@ -1,6 +1,6 @@
 // Retrieve user's name from localStorage and display it
-const userName = localStorage.getItem('userName');
-document.getElementById('user-name').textContent = userName || 'Guest';
+const userName = localStorage.getItem('username');
+document.getElementById('username').textContent = userName || 'Guest';
 
 // Task-related elements
 const taskForm = document.getElementById('task-form');
