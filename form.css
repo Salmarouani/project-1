@@ -13,21 +13,6 @@ body {
   line-height: 1.6;
 }
 
-/* Header (Logo or Title) */
-h1 {
-  font-family: 'Cherry Bomb One', cursive;
-  font-size: 2.5rem;
-  color: #E22027;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-h2, p {
-  font-size: 1.2rem;
-  color: #000000;
-  text-align: center;
-  margin-bottom: 20px;
-}
 
 /* Form Page Container */
 #form-page {
